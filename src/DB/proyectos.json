@@ -1,0 +1,49 @@
+ [
+    {
+        "id":1,
+        "title":"BookVerse",
+        "img":"https://i.imgur.com/fvV28XA.png",
+        "git":"https://github.com/crtobias/Books",
+        "deploy":"https://books-alpha-three.vercel.app/",
+        "more":"Mucho lore mucho lore mucho lore"
+    },
+    {
+        "id":2,
+        "title":"El Molino",
+        "img":"https://i.imgur.com/yamq1As.png",
+        "deploy":"https://resto-front-testing.vercel.app",
+        "more":"Mucho lore mucho lore mucho lore"
+    },
+    {
+        "id":3,
+        "title":"Cubic Grid Template",
+        "img":"https://i.imgur.com/k4HDhh1.png",
+        "git":"https://github.com/crtobias/Portafolio-cubico",
+        "deploy":"https://portafolio-n1hd.vercel.app/",
+        "more":"Mucho lore mucho lore mucho lore"
+    },
+    {
+        "id":4,
+        "title":"Pokedex",
+        "img":"https://i.imgur.com/j75yOAj.png",
+        "git":"https://github.com/crtobias/Pi-Pokemon",
+        "deploy":"",
+        "more":"Mucho lore mucho lore mucho lore"
+    },
+    {
+        "id":5,
+        "title":"RickAndMorty",
+        "img":"https://i.imgur.com/qnxA79Y.png",
+        "git":"https://github.com/crtobias/rick_and_morty",
+        "deploy":"",
+        "more":"Mucho lore mucho lore mucho lore"
+    },
+    {
+        "id":6,
+        "title":"Proximamente",
+        "img":"none",
+        "git":"",
+        "deploy":"",
+        "more":"Proximamente"
+    }
+]

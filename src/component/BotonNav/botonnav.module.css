@@ -1,0 +1,59 @@
+
+.container-boton-light {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.container-boton-light .palito {
+  width: 100%;
+  height: 3px;
+  background-color: #000000;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.container-boton-light.open .palito:nth-child(1) {
+  transform: rotate(55deg) translate(3.5px, 10px);
+}
+
+.container-boton-light.open .palito:nth-child(2) {
+  opacity: 0;
+}
+
+.container-boton-light.open .palito:nth-child(3) {
+  transform: rotate(-55deg) translate(3.5px, -10px);
+}
+
+
+.container-boton-black {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.container-boton-black .palito {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.container-boton-black.open .palito:nth-child(1) {
+  transform: rotate(55deg) translate(3.5px, 10px);
+}
+
+.container-boton-black.open .palito:nth-child(2) {
+  opacity: 0;
+}
+
+.container-boton-black.open .palito:nth-child(3) {
+  transform: rotate(-55deg) translate(3.5px, -10px);
+}

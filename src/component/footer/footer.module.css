@@ -1,0 +1,31 @@
+.container-footer-light {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 25px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-footer-black {
+  box-shadow: 0px 0px 25px black;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.icono{
+  height: 35px;
+  filter: drop-shadow(0px 0px 3px black);
+}
+.icono:hover{
+  scale: 1.1;
+}

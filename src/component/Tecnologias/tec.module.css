@@ -1,0 +1,29 @@
+.container-skills {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(75px, 100%), 1fr));
+  gap: 30px;
+  max-width: 600px;
+  padding: 20px;
+  justify-items: center;
+  text-align: center;
+}
+
+.title-black {
+  font-size: 2.5rem;
+  width: 300px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.title-light {
+  font-size: 2.5rem;
+  width: 300px;
+  text-align: center;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}

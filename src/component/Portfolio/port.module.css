@@ -1,0 +1,27 @@
+.cards {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 30px;
+  justify-content: center;
+  place-items: center;
+  width: 90vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  place-items: center;
+}
+
+.title-main-black {
+  font-size: 2rem;
+  border-bottom: 1px solid white;
+  width: 300px;
+}
+.title-main-light {
+  font-size: 2rem;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  width: 300px;
+}
