@@ -11,7 +11,7 @@
         "id":2,
         "title":"El Molino",
         "img":"https://i.imgur.com/yamq1As.png",
-        "deploy":"https://resto-front-testing.vercel.app",
+        "deploy":"https://resto-front-testing.vercel.app/table/2",
         "more":"aplicacion para gestion de restaurantes , mediante un qr el cliente puede hacer su pedido"
     },
     {
