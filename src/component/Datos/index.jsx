@@ -10,11 +10,11 @@ export const Datos = (props) => {
             <img className={BlackMode ? styles[`myfoto-black`] : styles[`myfoto-light`]} src={yo} alt="asdf" />
             <h1 className={styles.name}>
                 Tobias Gonzalez Arriola
-               <a href="https://export-download.canva.com/pIngk/DAFnHxpIngk/62/0-5415978918563671835.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230820%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230820T200038Z&X-Amz-Expires=28284&X-Amz-Signature=c777516f46659693715bf0de40391394fb87a2e7510b5829e07f3972cabc9b02&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27CV-1.pdf.pdf&response-expires=Mon%2C%2021%20Aug%202023%2003%3A52%3A02%20GMT" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
+               <a href="https://www.linkedin.com/in/tobias-gonzalez-arriola-0a2399273/overlay/1635542889703/single-media-viewer/?profileId=ACoAAELMajoBaczBg1nQxeFzVhpa_y0mSZCTvgY" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
             </h1>
         </section>
         <section className={BlackMode ? styles[`container-datos-info-black`] : styles[`container-datos-info-light`]}>
-           <p className={styles.lore}> I am a passionate Full Stack developer with a focus on Front-end development and interface design, with experience in both individual and team projects. I work with technologies such as HTML, CSS, JavaScript, React, Redux, Node.js, Express, SQL, PostgreSQL, and Sequelize. I am always excited to learn new technologies and enhance my skills. I stand out for my emphasis on quality and teamwork collaboration, and I am also familiar with TypeScript. I am constantly seeking professional growth opportunities.</p>
+           <p className={styles.lore}>Soy un Desarrollador Web Full-Stack con un constante interés en aprender nuevas tecnologías. Mi enfoque se centra principalmente en el diseño y el desarrollo del front-end. Originario de la ciudad de La Plata, Buenos Aires, nací en Córdoba, específicamente en Río Cuarto. Desde siempre he sentido una fuerte atracción hacia la programación y la creación de juegos.</p>
         </section>
         <section className={styles[`container-icons`]}>
            <a href="https://github.com/crtobias" target="_blank"> <img className={styles.icons} src={git} alt="" /></a>
