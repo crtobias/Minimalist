@@ -10,7 +10,7 @@ export const Datos = (props) => {
             <img className={BlackMode ? styles[`myfoto-black`] : styles[`myfoto-light`]} src={yo} alt="asdf" />
             <h1 className={styles.name}>
                 Tobias Gonzalez Arriola
-               <a href="https://www.linkedin.com/in/tobias-gonzalez-arriola-0a2399273/details/featured/1709074045426/single-media-viewer/?profileId=ACoAAELMajoBaczBg1nQxeFzVhpa_y0mSZCTvgY" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
+               <a href="https://www.linkedin.com/in/tobias-gonzalez-arriola-0a2399273/details/featured/1709082411543/single-media-viewer/?profileId=ACoAAELMajoBaczBg1nQxeFzVhpa_y0mSZCTvgY" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
             </h1>
         </section>
         <section className={BlackMode ? styles[`container-datos-info-black`] : styles[`container-datos-info-light`]}>
