@@ -10,7 +10,7 @@ export const Datos = (props) => {
             <img className={BlackMode ? styles[`myfoto-black`] : styles[`myfoto-light`]} src={yo} alt="asdf" />
             <h1 className={styles.name}>
                 Tobias Gonzalez Arriola
-               <a href="https://www.linkedin.com/in/tobias-gonzalez-arriola-0a2399273/details/featured/1709082411543/single-media-viewer/?profileId=ACoAAELMajoBaczBg1nQxeFzVhpa_y0mSZCTvgY" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
+               <a href="https://export-download.canva.com/DAktU/DAFvfvDAktU/29/0-6971992277799300034.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20240227%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240227T141917Z&X-Amz-Expires=44526&X-Amz-Signature=d214e7cee11a7ca38225dac0761e1682325196f19b1dfb4e44ebb7cb3641a624&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27cv-tobias.pdf.pdf&response-expires=Wed%2C%2028%20Feb%202024%2002%3A41%3A23%20GMT" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
             </h1>
         </section>
         <section className={BlackMode ? styles[`container-datos-info-black`] : styles[`container-datos-info-light`]}>
