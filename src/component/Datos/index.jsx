@@ -14,7 +14,7 @@ export const Datos = (props) => {
             </h1>
         </section>
         <section className={BlackMode ? styles[`container-datos-info-black`] : styles[`container-datos-info-light`]}>
-           <p className={styles.lore}>Soy un Desarrollador Web Full-Stack con un constante interés en aprender nuevas tecnologías. Mi enfoque se centra principalmente en el diseño y el desarrollo del front-end. Originario de la ciudad de La Plata, Buenos Aires, nací en Córdoba, específicamente en Río Cuarto. Desde siempre he sentido una fuerte atracción hacia la programación y la creación de juegos.</p>
+           <p className={styles.lore}>Soy un Desarrollador Web Full-Stack y Estudiante de ATIC en UNLP con un constante interés en aprender nuevas tecnologías. Mi enfoque se centra principalmente en el diseño y el desarrollo del front-end. Originario de la ciudad de La Plata, Buenos Aires, nací en Córdoba, específicamente en Río Cuarto. Desde siempre he sentido una fuerte atracción hacia la programación y la creación de juegos.</p>
         </section>
         <section className={styles[`container-icons`]}>
            <a href="https://github.com/crtobias" target="_blank"> <img className={styles.icons} src={git} alt="" /></a>
