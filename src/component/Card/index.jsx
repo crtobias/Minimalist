@@ -1,41 +1,68 @@
+import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import {  gitLogo,gmail, react } from "../../assets"
-import { Boton } from "../Boton"
-import styles from "./card.module.css"
-import { useState } from "react";
+import { gitLogo, gmail, react } from "../../assets";
+import { Boton } from "../Boton";
+import styles from "./card.module.css";
 
-
-export const Card = ({title,img,more,git,deploy}) => {
+export const Card = ({ title, img, more, git, deploy,mantenimiento }) => {
     const BlackMode = useSelector((state) => state.blackmode);
     const [showDiv, setShowDiv] = useState(true);
+    const [alertMessage, setAlertMessage] = useState("");
 
     const toggleDiv = () => {
-        setShowDiv(!showDiv); 
-      };
+        setShowDiv(!showDiv);
+    };
 
+    const handleGitClick = (event) => {
+        if (!git) {
+            event.preventDefault();
+            setAlertMessage("¡El enlace del repositorio está vacío!");
+        }
+    };
+
+    const handleDeployClick = (event) => {
+        if (!deploy) {
+            event.preventDefault();
+            setAlertMessage("¡El enlace de deploy está vacío!");
+        }
+    };
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setAlertMessage("");
+        }, 2000); // 5000 milisegundos = 5 segundos
+
+        return () => clearTimeout(timer);
+    }, [alertMessage]);
 
     return (
-        <section className={BlackMode ? styles[`container-card-black`] : styles[`container-card-light`]} >
-            
+        <section className={BlackMode ? styles[`container-card-black`] : styles[`container-card-light`]}>
             <img className={styles[`img-card`]} src={img} alt={title} />
-           <div className={styles[`title-more`]}>
-           <h1 className={BlackMode ? styles[`title-card-black`] : styles[`title-card-light`]}>{title}</h1>
-            <Boton texto="+" onClick={toggleDiv}/>
-           </div>
-
-
-
-           <div className={showDiv ? styles[`div-oculto`] : styles[`div-no-oculto`]}>
-           <button className={styles.cierre} onClick={toggleDiv} >-</button>
-          <div className={styles[`div-logos`]}>
-          <p><a href={git} target="_blank"><img className={styles.icons} src={gitLogo} alt="" /></a></p>
-           <p><a href={deploy} target="_blank"><img className={styles.icons}  src={gmail} alt="" /></a></p>
-          </div>
-           <p>{more}</p>
-           </div>
-
-
-
+            <div className={styles[`title-more`]}>
+                <h1 className={BlackMode ? styles[`title-card-black`] : styles[`title-card-light`]}>{title}</h1>
+                <Boton texto="more Info" onClick={toggleDiv} />
+            </div>
+            <div className={showDiv ? styles[`div-oculto`] : styles[`div-no-oculto`]}>
+                <button className={styles.cierre} onClick={toggleDiv}>Close</button>
+                <p>{more}</p>
+                <p>{mantenimiento}</p>
+                <div className={styles[`div-logos`]}>
+                    <p className={styles[`div-logos-l`]}>
+                        <h5>Repositorio</h5>
+                        <a href={git} target="_blank" onClick={handleGitClick}><img className={styles.icons} src={gitLogo} alt="" /></a>
+                    </p>
+                    <br />
+                    <p className={styles[`div-logos-l`]}>
+                        <h5>Deploy</h5>
+                        <a href={deploy} target="_blank" onClick={handleDeployClick}><img className={styles.icons} src={gmail} alt="" /></a>
+                    </p>
+                </div>
+            </div>
+            {alertMessage && (
+                <div className={styles.alert}>
+                    {alertMessage}
+                </div>
+            )}
         </section>
-    )
-}
+    );
+};

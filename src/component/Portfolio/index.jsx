@@ -12,7 +12,7 @@ export const Portfolio =  (props) => {
             <div className={styles.cards}>
                 {data.map((data)=>{
                     return(
-                        <Card title={data.title} img={data.img} git={data.git} deploy={data.deploy} more={data.more}/>
+                        <Card title={data.title} img={data.img} git={data.git} deploy={data.deploy} more={data.more} mantenimiento={data.mantenimiento}/>
                     )
                 })}
             </div>

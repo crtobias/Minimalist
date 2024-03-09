@@ -1,41 +1,47 @@
- [
+[
     {
-        "id":1,
-        "title":"BookVerse",
-        "img":"https://i.imgur.com/fvV28XA.png",
-        "git":"https://github.com/crtobias/Books",
-        "deploy":"https://books-alpha-three.vercel.app/",
-        "more":"Aplicacion para poder buscar , filtrar y leer tus libros favoritos"
+        "id": 1,
+        "title": "BookVerse",
+        "img": "https://i.imgur.com/fvV28XA.png",
+        "git": "https://github.com/crtobias/Books",
+        "deploy": "https://books-alpha-three.vercel.app/",
+        "more": "Aplicacion para poder buscar , filtrar y leer tus libros favoritos",
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
     },
     {
-        "id":2,
-        "title":"El Molino",
-        "img":"https://i.imgur.com/yamq1As.png",
-        "deploy":"https://resto-front-testing.vercel.app/table/2",
-        "more":"aplicacion para gestion de restaurantes , mediante un qr el cliente puede hacer su pedido"
+        "id": 2,
+        "title": "El Molino",
+        "img": "https://i.imgur.com/yamq1As.png",
+        "git": "https://github.com/crtobias/El-Molino",
+        "deploy": "https://resto-front-testing.vercel.app/table/2",
+        "more":"El Molino PF es una aplicación web creada para mejorar la experiencia de pedidos de un restaurante. Fue desarrollada por un equipo de 8 personas . La aplicación está diseñada para tres roles diferentes: Administrador, Empleado y Cliente.",
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
     },
     {
-        "id":3,
-        "title":"Cubic Grid Template",
-        "img":"https://i.imgur.com/k4HDhh1.png",
-        "git":"https://github.com/crtobias/Portafolio-cubico",
-        "deploy":"https://portafolio-n1hd.vercel.app/",
-        "more":"template de portafolio con un grid cubico adaptable"
+        "id": 3,
+        "title": "Cubic Grid",
+        "img": "https://i.imgur.com/k4HDhh1.png",
+        "git": "https://github.com/crtobias/Portafolio-cubico",
+        "deploy": "https://portafolio-n1hd.vercel.app/",
+        "more": "template de portafolio con un grid cubico adaptable",
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
     },
     {
-        "id":4,
-        "title":"Pokedex",
-        "img":"https://i.imgur.com/j75yOAj.png",
-        "git":"https://github.com/crtobias/Pi-Pokemon",
-        "deploy":"",
-        "more":"aplicacion para poder buscar y crear pokemones"
+        "id": 4,
+        "title": "Pokedex",
+        "img": "https://i.imgur.com/j75yOAj.png",
+        "git": "https://github.com/crtobias/Pi-Pokemon",
+        "deploy": "",
+        "more": "aplicacion para poder buscar y crear pokemones",
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
     },
     {
-        "id":5,
-        "title":"RickAndMorty",
-        "img":"https://i.imgur.com/qnxA79Y.png",
-        "git":"https://github.com/crtobias/rick_and_morty",
-        "deploy":"",
-        "more":"aplicacion que permite buscar y filtar personajes de rick and morty"
+        "id": 5,
+        "title": "RickAndMorty",
+        "img": "https://i.imgur.com/qnxA79Y.png",
+        "git": "https://github.com/crtobias/rick_and_morty",
+        "deploy": "",
+        "more": "aplicacion que permite buscar y filtar personajes de rick and morty",
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
     }
 ]
