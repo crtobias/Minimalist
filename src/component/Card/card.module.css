@@ -86,6 +86,9 @@
   align-items: center; /* Centrar verticalmente */
   gap: 1rem;
   color: white;
+  padding-left: 15%;
+  padding-right: 15%;
+  
 }
 
 

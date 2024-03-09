@@ -4,7 +4,7 @@ import { gitLogo, gmail, react } from "../../assets";
 import { Boton } from "../Boton";
 import styles from "./card.module.css";
 
-export const Card = ({ title, img, more, git, deploy,mantenimiento }) => {
+export const Card = ({ title, img, more, git, deploy,mantenimiento,tec }) => {
     const BlackMode = useSelector((state) => state.blackmode);
     const [showDiv, setShowDiv] = useState(true);
     const [alertMessage, setAlertMessage] = useState("");
@@ -40,12 +40,13 @@ export const Card = ({ title, img, more, git, deploy,mantenimiento }) => {
             <img className={styles[`img-card`]} src={img} alt={title} />
             <div className={styles[`title-more`]}>
                 <h1 className={BlackMode ? styles[`title-card-black`] : styles[`title-card-light`]}>{title}</h1>
-                <Boton texto="more Info" onClick={toggleDiv} />
+                <Boton texto="Mas info" onClick={toggleDiv} />
             </div>
             <div className={showDiv ? styles[`div-oculto`] : styles[`div-no-oculto`]}>
-                <button className={styles.cierre} onClick={toggleDiv}>Close</button>
+                <button className={styles.cierre} onClick={toggleDiv}>Cerrar</button>
                 <p>{more}</p>
-                <p>{mantenimiento}</p>
+                <h2>Tecnologias : {tec}</h2>
+                <p>Estado : {mantenimiento}</p>
                 <div className={styles[`div-logos`]}>
                     <p className={styles[`div-logos-l`]}>
                         <h5>Repositorio</h5>
@@ -53,7 +54,7 @@ export const Card = ({ title, img, more, git, deploy,mantenimiento }) => {
                     </p>
                     <br />
                     <p className={styles[`div-logos-l`]}>
-                        <h5>Deploy</h5>
+                        <h5>Web</h5>
                         <a href={deploy} target="_blank" onClick={handleDeployClick}><img className={styles.icons} src={gmail} alt="" /></a>
                     </p>
                 </div>

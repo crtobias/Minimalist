@@ -8,6 +8,7 @@ export { default as git } from "./git.svg"
 export { default as gitLogo } from "./git.svg"
 export { default as gmail } from "./gmail.svg"
 export { default as linkedin } from "./linkedin.svg"
+export {default as x} from "./x.svg"
 
 export { default as simple } from "./simple.ttf"
 
@@ -22,3 +23,5 @@ export { default as icon5 } from "./icon5.svg"
 export { default as icon6 } from "./icon6.svg"
 export { default as icon7 } from "./icon7.svg"
 export { default as icon8 } from "./icon8.svg"
+export { default as icon9 } from "./icon9.svg"
+export { default as icon10 } from "./icon10.svg"

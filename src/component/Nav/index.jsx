@@ -35,21 +35,21 @@ export const Nav = () => {
       <div className={BlackMode ? `${styles["container-menu-black"]} ${showDiv ? styles["active"] : ""}` : `${styles["container-menu-light"]} ${showDiv ? styles["active"] : ""}`}>
       <div className={styles[`opcion-nav`]}>
         <a href="#2">
-        <Boton  texto='Skills'   />
+        <Boton  texto='Habilidades'   />
         </a>
       </div>
       
       
       <div className={styles[`opcion-nav`]}>
         <a href="#1">
-        <Boton  texto='Home'   />
+        <Boton  texto='Inicio'   />
         </a>
       </div>
       
       
       <div className={styles[`opcion-nav`]}>
        <a href="#3">
-       <Boton  texto='Portfolio'  />
+       <Boton  texto='Proyectos'  />
        </a>
       </div>
       </div>
@@ -67,21 +67,21 @@ export const Nav = () => {
       </div>
       <div className={styles[`opcion-nav`]}>
         <a href="#2">
-        <Boton  texto='Skills' />
+        <Boton  texto='Habilidades' />
         </a>
       </div>
       
       
       <div className={styles[`opcion-nav`]}>
         <a href="#1">
-        <Boton  texto='Home' />
+        <Boton  texto='Inicio' />
         </a>
       </div>
       
       
       <div className={styles[`opcion-nav`]}>
        <a href="#3">
-       <Boton  texto='Portfolio' />
+       <Boton  texto='Proyectos' />
        </a>
       </div>
       

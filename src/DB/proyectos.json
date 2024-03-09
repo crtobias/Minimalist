@@ -6,7 +6,8 @@
         "git": "https://github.com/crtobias/Books",
         "deploy": "https://books-alpha-three.vercel.app/",
         "more": "Aplicacion para poder buscar , filtrar y leer tus libros favoritos",
-        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
+        "tec":"React , Redux , Css , Js , Html"
     },
     {
         "id": 2,
@@ -16,6 +17,8 @@
         "deploy": "https://resto-front-testing.vercel.app/table/2",
         "more":"El Molino PF es una aplicación web creada para mejorar la experiencia de pedidos de un restaurante. Fue desarrollada por un equipo de 8 personas . La aplicación está diseñada para tres roles diferentes: Administrador, Empleado y Cliente.",
         "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
+        ,
+        "tec":"TypeScript , Redux-Toolkit , ReactJS , HTML, CSS, Firebase ,NodeJS, ExpressJs, MongoDB"
     },
     {
         "id": 3,
@@ -24,7 +27,8 @@
         "git": "https://github.com/crtobias/Portafolio-cubico",
         "deploy": "https://portafolio-n1hd.vercel.app/",
         "more": "template de portafolio con un grid cubico adaptable",
-        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
+        "tec":"React , Redux , Css , Js , Html"
     },
     {
         "id": 4,
@@ -33,7 +37,8 @@
         "git": "https://github.com/crtobias/Pi-Pokemon",
         "deploy": "",
         "more": "aplicacion para poder buscar y crear pokemones",
-        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
+        "tec":"React , Redux , Css , Js , Html"
     },
     {
         "id": 5,
@@ -42,6 +47,7 @@
         "git": "https://github.com/crtobias/rick_and_morty",
         "deploy": "",
         "more": "aplicacion que permite buscar y filtar personajes de rick and morty",
-        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas"
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
+        "tec":"React , Redux , Css , Js , Html, ExpressJs, Sequelize"
     }
 ]
