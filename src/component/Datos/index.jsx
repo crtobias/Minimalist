@@ -10,7 +10,7 @@ export const Datos = (props) => {
             <img className={BlackMode ? styles[`myfoto-black`] : styles[`myfoto-light`]} src={yo} alt="asdf" />
             <h1 className={styles.name}>
                 Tobias Gonzalez Arriola
-               <a href="" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
+               <a href="https://drive.google.com/file/d/14K0hoL9cZcRzZqOpwwjs2lB-7fOj7W6X/view?usp=sharing" target="_blank"> <p className={BlackMode ? styles[`cv-black`] : styles[`cv-light`]}>cv</p></a>
             </h1>
         </section>
         <section className={BlackMode ? styles[`container-datos-info-black`] : styles[`container-datos-info-light`]}>
