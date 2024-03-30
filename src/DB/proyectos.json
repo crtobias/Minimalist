@@ -4,7 +4,7 @@
         "title": "BookVerse",
         "img": "https://i.imgur.com/fvV28XA.png",
         "git": "https://github.com/crtobias/Books",
-        "deploy": "https://books-alpha-three.vercel.app/",
+        "deploy": "",
         "more": "Aplicacion para poder buscar , filtrar y leer tus libros favoritos",
         "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
         "tec":"React , Redux , Css , Js , Html"
