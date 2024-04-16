@@ -20,7 +20,7 @@ export const Datos = (props) => {
            <a href="https://github.com/crtobias" target="_blank"> <img className={styles.icons} src={git} alt="" /></a>
             <a href="mailto:tgonzalezarriola@gmail.com" target="_blank"><img className={styles.icons} src={gmail} alt="" /></a>
             <a href="https://www.linkedin.com/in/tobias-gonzalez-arriola-0a2399273/" target="_blank"><img className={styles.icons} src={linkedin} alt="" /></a>
-            <a href="https://twitter.com/crtobias_" target="_blank"> <img className={styles.icons} src={x} alt="" /></a>
+{/*             <a href="https://twitter.com/crtobias_" target="_blank"> <img className={styles.icons} src={x} alt="" /></a> */}
         </section>
        </section> 
     )
