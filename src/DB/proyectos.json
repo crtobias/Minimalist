@@ -25,7 +25,7 @@
         "title": "Cubic Grid",
         "img": "https://i.imgur.com/k4HDhh1.png",
         "git": "https://github.com/crtobias/Portafolio-cubico",
-        "deploy": "https://portafolio-n1hd.vercel.app/",
+        "deploy": "",
         "more": "template de portafolio con un grid cubico adaptable",
         "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
         "tec":"React , Redux , Css , Js , Html"
@@ -49,5 +49,15 @@
         "more": "aplicacion que permite buscar y filtar personajes de rick and morty",
         "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
         "tec":"React , Redux , Css , Js , Html, ExpressJs, Sequelize"
+    },
+    {
+        "id": 6,
+        "title": "app note",
+        "img": "https://i.imgur.com/zrsHZJg.png",
+        "git": "https://github.com/crtobias/Notap",
+        "deploy": "",
+        "more": "una aplicacion de notas con registros mediante nextauth , guardado de usuario y notas en mongodb ( tambien se implemento el guardado de contraseñas en mongodb con hash para una seguridad mas alta)",
+        "mantenimiento":"fuera de mantenimiento , por lo tanto los deploy o apis pueden tener fallas",
+        "tec":"Nextjs , MongoDB , Mongoose , NextAuth"
     }
 ]

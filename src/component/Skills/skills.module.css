@@ -13,7 +13,7 @@
     user-select: none;
     height: 75px;
     width: 75px;
-    border-radius: 15px;
+    border-radius: 5px;
   }
   .container-skills-black {
     text-align: center;
@@ -30,7 +30,7 @@
     user-select: none;
     height: 75px;
     width: 75px;
-    border-radius: 15px;
+    border-radius: 5px;
   }
   
   .container-skills-light:hover {
